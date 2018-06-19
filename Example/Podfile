@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYModuleManger_Example' do
+  pod 'ZYModuleManger', :path => '../'
+
+  target 'ZYModuleManger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
