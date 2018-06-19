@@ -1,0 +1,22 @@
+{
+  "name": "ZYModuleManger",
+  "version": "0.1.0",
+  "summary": "A short description of ZYModuleManger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZhaoZhenyuCC/ZYModuleManger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZhaoZhenyuCC": "zhaozhenyu@taiwu.com"
+  },
+  "source": {
+    "git": "https://github.com/ZhaoZhenyuCC/ZYModuleManger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZYModuleManger/Classes/**/*"
+}

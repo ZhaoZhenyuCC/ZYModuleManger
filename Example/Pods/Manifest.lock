@@ -1,0 +1,16 @@
+PODS:
+  - ZYModuleManger (0.1.0)
+
+DEPENDENCIES:
+  - ZYModuleManger (from `../`)
+
+EXTERNAL SOURCES:
+  ZYModuleManger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZYModuleManger: 9d761f2d7c57fbe8d7194c2d0aea52804c39559f
+
+PODFILE CHECKSUM: 23ef86df64b75d5da2ecdfd338ff90e869fb5f48
+
+COCOAPODS: 1.4.0

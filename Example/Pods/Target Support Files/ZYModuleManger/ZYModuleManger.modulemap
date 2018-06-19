@@ -1,0 +1,6 @@
+framework module ZYModuleManger {
+  umbrella header "ZYModuleManger-umbrella.h"
+
+  export *
+  module * { export * }
+}

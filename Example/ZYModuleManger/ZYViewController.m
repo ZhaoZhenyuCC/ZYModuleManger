@@ -7,6 +7,7 @@
 //
 
 #import "ZYViewController.h"
+#import "TWMacros.h"
 
 @interface ZYViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = kSubjectColor;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
