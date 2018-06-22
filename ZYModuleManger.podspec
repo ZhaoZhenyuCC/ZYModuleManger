@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
 s.source_files = 'ZYModuleManger/Classes/**/*'
 
-s.resource = 'ZYModuleManger/Classes/**/*'
+#s.resource = 'ZYModuleManger/Classes/**/*'
 
 #  s.resource_bundles = {
 #     'ZYModuleManger' => ['ZYModuleManger/Assets/*.png']
