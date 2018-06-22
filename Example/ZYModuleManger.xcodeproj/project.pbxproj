@@ -66,7 +66,7 @@
 		8C76DD06061F1CCF2CBAB32D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B849EF1C318B2B1E86BC1F6B /* Pods-ZYModuleManger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYModuleManger_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYModuleManger_Tests/Pods-ZYModuleManger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E8B4249455861EE1AB329C52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F9CFE8615413F9F93AD47640 /* ZYModuleManger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYModuleManger.podspec; path = ../ZYModuleManger.podspec; sourceTree = "<group>"; };
+		F9CFE8615413F9F93AD47640 /* ZYModuleManger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYModuleManger.podspec; path = ../ZYModuleManger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,10 +322,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZYModuleManger_Example/Pods-ZYModuleManger_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYModuleManger/ZYModuleManger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYModuleManger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,7 @@
 PODS:
-  - ZYModuleManger (0.1.0)
+  - CTMediator (13)
+  - ZYModuleManger (0.1.0):
+    - CTMediator (~> 13)
 
 DEPENDENCIES:
   - ZYModuleManger (from `../`)
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZYModuleManger: 9d761f2d7c57fbe8d7194c2d0aea52804c39559f
+  CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
+  ZYModuleManger: 5113be386bfbdd0b88c6efcdad7ffc8e0a572c00
 
-PODFILE CHECKSUM: 23ef86df64b75d5da2ecdfd338ff90e869fb5f48
+PODFILE CHECKSUM: 39f7023b92b5cf076205f298e2915f42f5b2c94d
 
 COCOAPODS: 1.4.0

@@ -7,66 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		239561167D2AB8BF11E49B5236FA7C80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		34D5EAD19425C50FDB9010DC84271D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		024646D60C51988BF7953FE6AF6CAF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		0B347294292F548EBD78DD0D5E66C194 /* ZYModuleController_A.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0F4C92AFE21950DA6E01CF592E1CB /* ZYModuleController_A.m */; };
+		0BBCEC94837415CB9898ECAB9BE33591 /* ZYModuleController_A.h in Resources */ = {isa = PBXBuildFile; fileRef = 53B409B70382510C995FC04D543E4639 /* ZYModuleController_A.h */; };
+		15FB80A14B21D31727139EF4B28A7E5A /* ZYModuleController_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B409B70382510C995FC04D543E4639 /* ZYModuleController_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19115DB89A9AA684085392D8EC2B115C /* Target_ZYModule_A.m in Resources */ = {isa = PBXBuildFile; fileRef = E4838E2DBE53D92CC5DA6B34076206E4 /* Target_ZYModule_A.m */; };
+		1F32A1BEA1454630AAE29E1E10E24C0C /* TWMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC5D54F9967A05C60E37D93A5C4C117 /* TWMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5ED2424392EA86480465AD716C400 /* CTMediator.m */; };
+		239561167D2AB8BF11E49B5236FA7C80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		2AF1498321BA0F8A02D148F9DABD5AB2 /* Pods-ZYModuleManger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BBB734450EB625614DA1335F7FC75 /* Pods-ZYModuleManger_Example-dummy.m */; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C53B01700F66D8F6B2D4142BCA6B222 /* Pods-ZYModuleManger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C589FE8755A6AC54A1C75346513A7F2 /* Pods-ZYModuleManger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7CEDE6FFB024E9D8AABD5E05CA0BD2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BAD64EDAF625A4CBEA14A968E1121B /* ReplaceMe.m */; };
+		51AEC7371702AEDC940931E3C8C69A63 /* CTMediator+ZYModule_A.h in Resources */ = {isa = PBXBuildFile; fileRef = 5D4B3CF3949FAE64F909BC58C4CA4852 /* CTMediator+ZYModule_A.h */; };
 		56F19E889A13073C09E88CA2DA76DCF2 /* Pods-ZYModuleManger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6019E4650E84890FFDC1F82EF9F805 /* Pods-ZYModuleManger_Tests-dummy.m */; };
-		71DD9202153B386A0081A2304FAFE526 /* ZYModuleManger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8739BE642D1B023BFE9AE2EFF5B217DB /* ZYModuleManger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89C7AA1858E72090A2A98C098C0C6FBB /* Pods-ZYModuleManger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 550BCAFBD143648570AB1559A2488E9A /* Pods-ZYModuleManger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A93B2C20F2FC425FB7915B6C53273961 /* TWMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFAC44A6DCA1206F4CF06593F2EB1BC /* TWMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD907F1D3401323F3F3CBE79D7A4C278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E1F67760B98AC95D927DEC61E1EA5CED /* ZYModuleManger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA81EDF59AA5A62D27684E35B112CFF1 /* ZYModuleManger-dummy.m */; };
-		F6B22B000E841E8EA71963EAE59465CC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 318134F23D8E55B7FF018FC8138E2813 /* ReplaceMe.m */; };
-		F847D8BC65DBDD1E84A34930366D5548 /* Pods-ZYModuleManger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BBB734450EB625614DA1335F7FC75 /* Pods-ZYModuleManger_Example-dummy.m */; };
+		59625578AAEF7D2CC7FD3CCFD45C46D5 /* ZYModuleController_A.m in Resources */ = {isa = PBXBuildFile; fileRef = DFB0F4C92AFE21950DA6E01CF592E1CB /* ZYModuleController_A.m */; };
+		652DA32BCA3269FD301FBFAD8199FE86 /* ZYModuleManger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E55C741BC0AE26E4FDD2A23902573D /* ZYModuleManger-dummy.m */; };
+		705AA87E4E2CBEE01372D912E1229E2F /* CTMediator+ZYModule_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4B3CF3949FAE64F909BC58C4CA4852 /* CTMediator+ZYModule_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836DDADCE2071D5862A8F54FE9B3E236 /* ZYModuleController_A.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76D3B984C61B4292C359E2EADFDD532 /* ZYModuleController_A.xib */; };
+		8843053E9DD32C5451BD65441119925E /* CTMediator+ZYModule_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759CA5034ED7309C9C802B0C68DD8BE /* CTMediator+ZYModule_A.m */; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C670F4095904B03E6090C2F946173DD /* TWMacros.h in Resources */ = {isa = PBXBuildFile; fileRef = FDC5D54F9967A05C60E37D93A5C4C117 /* TWMacros.h */; };
+		9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		9F760ADA05ED362113BA1A1832B8FC10 /* Target_ZYModule_A.h in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B8659CA2CB6C4EDFB76457E8BC554 /* Target_ZYModule_A.h */; };
+		A55EBDFA74C5FD1C6E5C74B6C75C7A19 /* Target_ZYModule_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3B8659CA2CB6C4EDFB76457E8BC554 /* Target_ZYModule_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90786FA03A708570FB97ACB33AA1CD8 /* Macros in Resources */ = {isa = PBXBuildFile; fileRef = 1307765F96629EE35FCC49AB6038B5F5 /* Macros */; };
+		B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */; };
+		C84A7D9055DCAFFEEF0052893493DF43 /* Module_A in Resources */ = {isa = PBXBuildFile; fileRef = 00CD0812BE24CFBB07270532AB62D970 /* Module_A */; };
+		CC348BB39E90E6063020665A0BF1CB33 /* ReplaceMe.m in Resources */ = {isa = PBXBuildFile; fileRef = 32BAD64EDAF625A4CBEA14A968E1121B /* ReplaceMe.m */; };
+		CD74F63AD4EA9650DCEF3F8E2E63CC3B /* ZYModule_A in Resources */ = {isa = PBXBuildFile; fileRef = CB90CB2018EE71B3BF4AEAEABEEC5DE7 /* ZYModule_A */; };
+		D11EE20CD589BEA142A3A0E40B565FB9 /* CTMediator+ZYModule_A.m in Resources */ = {isa = PBXBuildFile; fileRef = 0759CA5034ED7309C9C802B0C68DD8BE /* CTMediator+ZYModule_A.m */; };
+		D58A2ED4B3E60CAC514D7B82BA22F68C /* ZYModuleManger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C537BA5069F94FC07706A63ADCD2C2E /* ZYModuleManger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9916D22B2B149861251C23179ADFFEE /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */; };
+		E3A1E9045E0342D89E943DBCCC7D3819 /* ZYModuleController_A.xib in Sources */ = {isa = PBXBuildFile; fileRef = D76D3B984C61B4292C359E2EADFDD532 /* ZYModuleController_A.xib */; };
+		F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */; };
+		F5A4F77A6D9823149F2E7AFD5EEE29D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		FB5EE4562443511B011981CEDB21027E /* Pods-ZYModuleManger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 550BCAFBD143648570AB1559A2488E9A /* Pods-ZYModuleManger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDF5F847C82022F787C17F35DBB3E86 /* Target_ZYModule_A.m in Sources */ = {isa = PBXBuildFile; fileRef = E4838E2DBE53D92CC5DA6B34076206E4 /* Target_ZYModule_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		819A55752B3E09D09861319C360FE305 /* PBXContainerItemProxy */ = {
+		2FC56C28ABDCF5CFCF5913A78E3D7EF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAFEE5272554900C4471A0F5AC4D1397;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		7CDB2845A4A0DB15D5108A9337FF6250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA52889DAF4FBDC9412E221B264F5072;
 			remoteInfo = ZYModuleManger;
+		};
+		9107C2A8FC264C37AD5B90CD0AF53FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CD0812BE24CFBB07270532AB62D970 /* Module_A */ = {isa = PBXFileReference; includeInIndex = 1; path = Module_A; sourceTree = "<group>"; };
 		0593A0A57208A00A3C17C71F05A4D0E1 /* Pods-ZYModuleManger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYModuleManger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		059F09C0F443BB8230F8236FBD9E9CE9 /* Pods-ZYModuleManger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYModuleManger_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		14C4743965447A93EF592FE6A37C9560 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		285472AFF9FF392D610B4CEDDFE952A8 /* Pods_ZYModuleManger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYModuleManger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		318134F23D8E55B7FF018FC8138E2813 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYModuleManger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0759CA5034ED7309C9C802B0C68DD8BE /* CTMediator+ZYModule_A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ZYModule_A.m"; sourceTree = "<group>"; };
+		1307765F96629EE35FCC49AB6038B5F5 /* Macros */ = {isa = PBXFileReference; includeInIndex = 1; name = Macros; path = ZYModuleManger/Classes/Macros; sourceTree = "<group>"; };
+		155E070D84E613E19ACF707B570D611E /* ZYModuleManger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYModuleManger-prefix.pch"; sourceTree = "<group>"; };
+		2F3B8659CA2CB6C4EDFB76457E8BC554 /* Target_ZYModule_A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_ZYModule_A.h; sourceTree = "<group>"; };
+		31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		32BAD64EDAF625A4CBEA14A968E1121B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYModuleManger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		375BBB734450EB625614DA1335F7FC75 /* Pods-ZYModuleManger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYModuleManger_Example-dummy.m"; sourceTree = "<group>"; };
 		3861A38445BFBAA1BD93ACC9FB1936D4 /* Pods-ZYModuleManger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYModuleManger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		40AAC4B1C52ADCCCB5CF1C5C4E7ACD8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		49621D103B3E1AD28665E2E038D4D9DD /* ZYModuleManger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYModuleManger.xcconfig; sourceTree = "<group>"; };
 		4AFDDC80559C274328E327C423A72C57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C537BA5069F94FC07706A63ADCD2C2E /* ZYModuleManger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYModuleManger-umbrella.h"; sourceTree = "<group>"; };
+		4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		5291BE042BA30B733FB8A6EBA9BBEE7B /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		53B409B70382510C995FC04D543E4639 /* ZYModuleController_A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYModuleController_A.h; sourceTree = "<group>"; };
 		550BCAFBD143648570AB1559A2488E9A /* Pods-ZYModuleManger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYModuleManger_Example-umbrella.h"; sourceTree = "<group>"; };
+		55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		5C589FE8755A6AC54A1C75346513A7F2 /* Pods-ZYModuleManger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYModuleManger_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5E321B50EB997D0D2A36D7D70316736C /* ZYModuleManger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYModuleManger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D4B3CF3949FAE64F909BC58C4CA4852 /* CTMediator+ZYModule_A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ZYModule_A.h"; sourceTree = "<group>"; };
+		63DCC4C265FED05A617D744A4682672D /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E8526560A106875FBF5707069A695 /* Pods-ZYModuleManger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYModuleManger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71E99573AA26E14FC053E6F00F6C8347 /* ZYModuleManger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYModuleManger.xcconfig; sourceTree = "<group>"; };
+		76E55C741BC0AE26E4FDD2A23902573D /* ZYModuleManger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYModuleManger-dummy.m"; sourceTree = "<group>"; };
+		7B865221BDEBC5B5E65CCF587D561691 /* ZYModuleManger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYModuleManger.framework; path = ZYModuleManger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3DD5AF9A5DF43C9A169FD731271CDA /* ZYModuleManger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZYModuleManger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7FBE83DC78301B83F07F578AFE83C7F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		82684C02B70DB1B51737B6F39E495043 /* Pods-ZYModuleManger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYModuleManger_Example-resources.sh"; sourceTree = "<group>"; };
-		8739BE642D1B023BFE9AE2EFF5B217DB /* ZYModuleManger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYModuleManger-umbrella.h"; sourceTree = "<group>"; };
 		8DE06CC700E6237C4DFABC34A7A9AA47 /* Pods-ZYModuleManger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYModuleManger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97BDC2A7BA3C2F6058455CB8E2309780 /* Pods-ZYModuleManger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYModuleManger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C6408ED8AD0CF96CBECE2760F3AD8B3 /* Pods-ZYModuleManger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYModuleManger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AA81EDF59AA5A62D27684E35B112CFF1 /* ZYModuleManger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYModuleManger-dummy.m"; sourceTree = "<group>"; };
+		9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F254E4D247D71617716667D7CF875D /* Pods_ZYModuleManger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYModuleManger_Tests.framework; path = "Pods-ZYModuleManger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9F202D0691DDDF363D3F3AFB1D9047 /* Pods-ZYModuleManger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYModuleManger_Tests.modulemap"; sourceTree = "<group>"; };
-		AF3BC83815136B28608AC5B3E525E246 /* Pods_ZYModuleManger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYModuleManger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4CE12A93FA220525C31F5B815007D0C /* ZYModuleManger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYModuleManger.modulemap; sourceTree = "<group>"; };
-		BA21AE71BA9A5D26C35ABADFB65142D2 /* ZYModuleManger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYModuleManger-prefix.pch"; sourceTree = "<group>"; };
+		B1E0B12A87A3865A835CC29857D92005 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BAC98630E358844BAA5722F7E9C2BE2A /* Pods-ZYModuleManger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYModuleManger_Tests-resources.sh"; sourceTree = "<group>"; };
+		BED5ED2424392EA86480465AD716C400 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		BF1251FE255104617E73341FDBE23D88 /* Pods-ZYModuleManger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYModuleManger_Example.modulemap"; sourceTree = "<group>"; };
-		C9456A9C203AE6E66872C412AA9AB639 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB90CB2018EE71B3BF4AEAEABEEC5DE7 /* ZYModule_A */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYModule_A; path = ZYModuleManger/Classes/ZYModule_A; sourceTree = "<group>"; };
+		D76D3B984C61B4292C359E2EADFDD532 /* ZYModuleController_A.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ZYModuleController_A.xib; sourceTree = "<group>"; };
 		DB3C082319F83BDC1599CE96949D962F /* Pods-ZYModuleManger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYModuleManger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DD6019E4650E84890FFDC1F82EF9F805 /* Pods-ZYModuleManger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYModuleManger_Tests-dummy.m"; sourceTree = "<group>"; };
+		DFB0F4C92AFE21950DA6E01CF592E1CB /* ZYModuleController_A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYModuleController_A.m; sourceTree = "<group>"; };
+		E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		E1D3F883FC68A30D678359D5C17C1D0D /* ZYModuleManger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYModuleManger.modulemap; sourceTree = "<group>"; };
+		E4838E2DBE53D92CC5DA6B34076206E4 /* Target_ZYModule_A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_ZYModule_A.m; sourceTree = "<group>"; };
 		E71FBE2C4DC96503657E1CC34B9E8403 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E89AB2D2241421C5B606B8AFB9A3BEE6 /* ZYModuleManger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZYModuleManger.podspec; sourceTree = "<group>"; };
+		E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		E9E9228F206AAC31D1FADB8B1F4E8AEA /* Pods-ZYModuleManger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYModuleManger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EAFAC44A6DCA1206F4CF06593F2EB1BC /* TWMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMacros.h; sourceTree = "<group>"; };
+		EC3A85F7A2380722B8F52D9951CEEA4B /* Pods_ZYModuleManger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYModuleManger_Example.framework; path = "Pods-ZYModuleManger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17BF283F7148594F02F18B74D2C1143 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9836CE6E79584AE14873E79F345DC5C /* Pods-ZYModuleManger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYModuleManger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC5D54F9967A05C60E37D93A5C4C117 /* TWMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,25 +139,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1521BAD133B16600833AE355E1DB7D33 /* Frameworks */ = {
+		362DFBCCDBC2DC6AFA30AA9B56F42072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D5EAD19425C50FDB9010DC84271D0E /* Foundation.framework in Frameworks */,
+				D9916D22B2B149861251C23179ADFFEE /* CTMediator.framework in Frameworks */,
+				024646D60C51988BF7953FE6AF6CAF18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E146FED3A50F0000CC0965F3C021AA6 /* Frameworks */ = {
+		3B26BE1CB047B222C7E9000B2EA79DA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD907F1D3401323F3F3CBE79D7A4C278 /* Foundation.framework in Frameworks */,
+				F5A4F77A6D9823149F2E7AFD5EEE29D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */,
+				B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11F48F8726DF85881FD6B498C1940962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DCC4C265FED05A617D744A4682672D /* CTMediator.framework */,
+				EC3A85F7A2380722B8F52D9951CEEA4B /* Pods_ZYModuleManger_Example.framework */,
+				A5F254E4D247D71617716667D7CF875D /* Pods_ZYModuleManger_Tests.framework */,
+				7B865221BDEBC5B5E65CCF587D561691 /* ZYModuleManger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1D249D31DD19854ACC19EC97BEEF8786 /* Pods-ZYModuleManger_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,18 +205,54 @@
 			path = "Target Support Files/Pods-ZYModuleManger_Example";
 			sourceTree = "<group>";
 		};
-		4D4A99BE5DBFF4B237FE602A5A538D1E /* Support Files */ = {
+		23F6A59214E44BF7B92C32C407EF9D70 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C9456A9C203AE6E66872C412AA9AB639 /* Info.plist */,
-				B4CE12A93FA220525C31F5B815007D0C /* ZYModuleManger.modulemap */,
-				49621D103B3E1AD28665E2E038D4D9DD /* ZYModuleManger.xcconfig */,
-				AA81EDF59AA5A62D27684E35B112CFF1 /* ZYModuleManger-dummy.m */,
-				BA21AE71BA9A5D26C35ABADFB65142D2 /* ZYModuleManger-prefix.pch */,
-				8739BE642D1B023BFE9AE2EFF5B217DB /* ZYModuleManger-umbrella.h */,
+				4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */,
+				B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZYModuleManger";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46AE5C4ABF45D41B8AEAE742EBDC9FBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F9986A4D9A01B02BD82736AF2EAC662 /* ZYModuleManger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4BA909426797A969B3897E60878F71CA /* Module_A */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Module_A;
+			path = Module_A;
+			sourceTree = "<group>";
+		};
+		4F9986A4D9A01B02BD82736AF2EAC662 /* ZYModuleManger */ = {
+			isa = PBXGroup;
+			children = (
+				32BAD64EDAF625A4CBEA14A968E1121B /* ReplaceMe.m */,
+				F0F4DF75D3C75C05DAE9CCE22CB17B7E /* Macros */,
+				E76617A0BE83E3440C2789E7E82AFF84 /* Pod */,
+				D109B058B7F35D4E27756C49A3193066 /* Resources */,
+				716EDDD7BE0733242916F5BA7E1A658B /* Support Files */,
+				AE8B772A3B9F93447D9D4EECE91C7F05 /* ZYModule_A */,
+			);
+			name = ZYModuleManger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */,
+				BED5ED2424392EA86480465AD716C400 /* CTMediator.m */,
+				D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
 			sourceTree = "<group>";
 		};
 		6FE482AD22F08B0CB36CF9C46F2FBB27 /* Targets Support Files */ = {
@@ -138,43 +264,81 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		716EDDD7BE0733242916F5BA7E1A658B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F17BF283F7148594F02F18B74D2C1143 /* Info.plist */,
+				E1D3F883FC68A30D678359D5C17C1D0D /* ZYModuleManger.modulemap */,
+				71E99573AA26E14FC053E6F00F6C8347 /* ZYModuleManger.xcconfig */,
+				76E55C741BC0AE26E4FDD2A23902573D /* ZYModuleManger-dummy.m */,
+				155E070D84E613E19ACF707B570D611E /* ZYModuleManger-prefix.pch */,
+				4C537BA5069F94FC07706A63ADCD2C2E /* ZYModuleManger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYModuleManger";
+			sourceTree = "<group>";
+		};
+		7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */,
+				23F6A59214E44BF7B92C32C407EF9D70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BBE205196C32A80BE87632F726D4B6BA /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EA36FA0BC5DDCC1A358F38C7DDDE827E /* Products */,
+				46AE5C4ABF45D41B8AEAE742EBDC9FBD /* Development Pods */,
+				7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */,
+				16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */,
+				11F48F8726DF85881FD6B498C1940962 /* Products */,
 				6FE482AD22F08B0CB36CF9C46F2FBB27 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A205DD63D83369E045C96E67E5E2D94E /* ZYModuleManger */ = {
+		911C0B0E67F41DB64B8796AE00DBB677 /* Module_A */ = {
 			isa = PBXGroup;
 			children = (
-				318134F23D8E55B7FF018FC8138E2813 /* ReplaceMe.m */,
-				C6113649BB1068FAE70C0EDF8EE9526F /* Macros */,
-				E66446D1D5C3E604D943E087E5A8DE5B /* Pod */,
-				4D4A99BE5DBFF4B237FE602A5A538D1E /* Support Files */,
+				5D4B3CF3949FAE64F909BC58C4CA4852 /* CTMediator+ZYModule_A.h */,
+				0759CA5034ED7309C9C802B0C68DD8BE /* CTMediator+ZYModule_A.m */,
+				2F3B8659CA2CB6C4EDFB76457E8BC554 /* Target_ZYModule_A.h */,
+				E4838E2DBE53D92CC5DA6B34076206E4 /* Target_ZYModule_A.m */,
+				53B409B70382510C995FC04D543E4639 /* ZYModuleController_A.h */,
+				DFB0F4C92AFE21950DA6E01CF592E1CB /* ZYModuleController_A.m */,
+				D76D3B984C61B4292C359E2EADFDD532 /* ZYModuleController_A.xib */,
 			);
-			name = ZYModuleManger;
-			path = ../..;
+			name = Module_A;
+			path = Module_A;
 			sourceTree = "<group>";
 		};
-		BBE205196C32A80BE87632F726D4B6BA /* Development Pods */ = {
+		99AD82D7CDF297D9C921AF1610429A63 /* ZYModule_A */ = {
 			isa = PBXGroup;
 			children = (
-				A205DD63D83369E045C96E67E5E2D94E /* ZYModuleManger */,
+				00CD0812BE24CFBB07270532AB62D970 /* Module_A */,
+				4BA909426797A969B3897E60878F71CA /* Module_A */,
 			);
-			name = "Development Pods";
+			name = ZYModule_A;
+			path = ZYModuleManger/Classes/ZYModule_A;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A4D589ED2523CF8CDB62A627946F4896 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = Frameworks;
+			name = Macros;
+			path = ZYModuleManger/Classes/Macros;
+			sourceTree = "<group>";
+		};
+		AE8B772A3B9F93447D9D4EECE91C7F05 /* ZYModule_A */ = {
+			isa = PBXGroup;
+			children = (
+				911C0B0E67F41DB64B8796AE00DBB677 /* Module_A */,
+			);
+			name = ZYModule_A;
+			path = ZYModuleManger/Classes/ZYModule_A;
 			sourceTree = "<group>";
 		};
 		BD52A28BB1B4A96BF79193E3A750BC2E /* Pods-ZYModuleManger_Tests */ = {
@@ -195,46 +359,70 @@
 			path = "Target Support Files/Pods-ZYModuleManger_Tests";
 			sourceTree = "<group>";
 		};
-		C6113649BB1068FAE70C0EDF8EE9526F /* Macros */ = {
+		D109B058B7F35D4E27756C49A3193066 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EAFAC44A6DCA1206F4CF06593F2EB1BC /* TWMacros.h */,
+				1307765F96629EE35FCC49AB6038B5F5 /* Macros */,
+				CB90CB2018EE71B3BF4AEAEABEEC5DE7 /* ZYModule_A */,
+				A4D589ED2523CF8CDB62A627946F4896 /* Macros */,
+				99AD82D7CDF297D9C921AF1610429A63 /* ZYModule_A */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */,
+				31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */,
+				E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */,
+				5291BE042BA30B733FB8A6EBA9BBEE7B /* CTMediator-prefix.pch */,
+				E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */,
+				9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		E76617A0BE83E3440C2789E7E82AFF84 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7FBE83DC78301B83F07F578AFE83C7F0 /* LICENSE */,
+				B1E0B12A87A3865A835CC29857D92005 /* README.md */,
+				7D3DD5AF9A5DF43C9A169FD731271CDA /* ZYModuleManger.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F0F4DF75D3C75C05DAE9CCE22CB17B7E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				FDC5D54F9967A05C60E37D93A5C4C117 /* TWMacros.h */,
 			);
 			name = Macros;
 			path = ZYModuleManger/Classes/Macros;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E66446D1D5C3E604D943E087E5A8DE5B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				14C4743965447A93EF592FE6A37C9560 /* LICENSE */,
-				40AAC4B1C52ADCCCB5CF1C5C4E7ACD8A /* README.md */,
-				E89AB2D2241421C5B606B8AFB9A3BEE6 /* ZYModuleManger.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EA36FA0BC5DDCC1A358F38C7DDDE827E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF3BC83815136B28608AC5B3E525E246 /* Pods_ZYModuleManger_Example.framework */,
-				285472AFF9FF392D610B4CEDDFE952A8 /* Pods_ZYModuleManger_Tests.framework */,
-				5E321B50EB997D0D2A36D7D70316736C /* ZYModuleManger.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A9320873C9463034448D13D85AE142D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5EE4562443511B011981CEDB21027E /* Pods-ZYModuleManger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59707B724C3BF7F1311DD63A4CD1B7AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,59 +431,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65A13D0209FC391C359605AABE24432A /* Headers */ = {
+		84F16568E01F03AB6CDC725E541E3E72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93B2C20F2FC425FB7915B6C53273961 /* TWMacros.h in Headers */,
-				71DD9202153B386A0081A2304FAFE526 /* ZYModuleManger-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACCD45A9A411BE6D6530096D4AB1136D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89C7AA1858E72090A2A98C098C0C6FBB /* Pods-ZYModuleManger_Example-umbrella.h in Headers */,
+				705AA87E4E2CBEE01372D912E1229E2F /* CTMediator+ZYModule_A.h in Headers */,
+				A55EBDFA74C5FD1C6E5C74B6C75C7A19 /* Target_ZYModule_A.h in Headers */,
+				1F32A1BEA1454630AAE29E1E10E24C0C /* TWMacros.h in Headers */,
+				15FB80A14B21D31727139EF4B28A7E5A /* ZYModuleController_A.h in Headers */,
+				D58A2ED4B3E60CAC514D7B82BA22F68C /* ZYModuleManger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AAFEE5272554900C4471A0F5AC4D1397 /* ZYModuleManger */ = {
+		570866364694255DDD02976834A4A848 /* Pods-ZYModuleManger_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2D0DB91B9FF79BD06DBAD630AB26D12 /* Build configuration list for PBXNativeTarget "ZYModuleManger" */;
+			buildConfigurationList = CA519BD09A6A0100F496A201A03D4C09 /* Build configuration list for PBXNativeTarget "Pods-ZYModuleManger_Example" */;
 			buildPhases = (
-				AF25DF13A78C1489CEF95DAF9BDF3F2A /* Sources */,
-				5E146FED3A50F0000CC0965F3C021AA6 /* Frameworks */,
-				65A13D0209FC391C359605AABE24432A /* Headers */,
+				F18D925213307ECF98F0B1B862C78D3E /* Sources */,
+				3B26BE1CB047B222C7E9000B2EA79DA4 /* Frameworks */,
+				4A9320873C9463034448D13D85AE142D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ZYModuleManger;
-			productName = ZYModuleManger;
-			productReference = 5E321B50EB997D0D2A36D7D70316736C /* ZYModuleManger.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C74A6B2D3EBAFB115B6276283C448ABC /* Pods-ZYModuleManger_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB237C3E8A26A69D821ABECF9DFBA1F /* Build configuration list for PBXNativeTarget "Pods-ZYModuleManger_Example" */;
-			buildPhases = (
-				B157CDDAF73199B4B833841112F4409E /* Sources */,
-				1521BAD133B16600833AE355E1DB7D33 /* Frameworks */,
-				ACCD45A9A411BE6D6530096D4AB1136D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4363060BF95E5D6DB9798FE36CA854C1 /* PBXTargetDependency */,
+				9957AC69D01F05D5C3BC4B84B465D1C7 /* PBXTargetDependency */,
+				077C8C8BF8263DBE37D9198889DAFA11 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZYModuleManger_Example";
 			productName = "Pods-ZYModuleManger_Example";
-			productReference = AF3BC83815136B28608AC5B3E525E246 /* Pods_ZYModuleManger_Example.framework */;
+			productReference = EC3A85F7A2380722B8F52D9951CEEA4B /* Pods_ZYModuleManger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 63DCC4C265FED05A617D744A4682672D /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA52889DAF4FBDC9412E221B264F5072 /* ZYModuleManger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADE2B6D7B3EF5A2E96957D7FD5BCF6E /* Build configuration list for PBXNativeTarget "ZYModuleManger" */;
+			buildPhases = (
+				4989313607250F6DEC7E5BE9A0393293 /* Sources */,
+				362DFBCCDBC2DC6AFA30AA9B56F42072 /* Frameworks */,
+				84F16568E01F03AB6CDC725E541E3E72 /* Headers */,
+				2F81D44460F21A39ACAB591B69021AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202998FE9C01822E4C3EAB8240DE8570 /* PBXTargetDependency */,
+			);
+			name = ZYModuleManger;
+			productName = ZYModuleManger;
+			productReference = 7B865221BDEBC5B5E65CCF587D561691 /* ZYModuleManger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F158DF48C2A0C9399714997B17752A8F /* Pods-ZYModuleManger_Tests */ = {
@@ -312,7 +515,7 @@
 			);
 			name = "Pods-ZYModuleManger_Tests";
 			productName = "Pods-ZYModuleManger_Tests";
-			productReference = 285472AFF9FF392D610B4CEDDFE952A8 /* Pods_ZYModuleManger_Tests.framework */;
+			productReference = A5F254E4D247D71617716667D7CF875D /* Pods_ZYModuleManger_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -332,24 +535,60 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EA36FA0BC5DDCC1A358F38C7DDDE827E /* Products */;
+			productRefGroup = 11F48F8726DF85881FD6B498C1940962 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C74A6B2D3EBAFB115B6276283C448ABC /* Pods-ZYModuleManger_Example */,
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				570866364694255DDD02976834A4A848 /* Pods-ZYModuleManger_Example */,
 				F158DF48C2A0C9399714997B17752A8F /* Pods-ZYModuleManger_Tests */,
-				AAFEE5272554900C4471A0F5AC4D1397 /* ZYModuleManger */,
+				BA52889DAF4FBDC9412E221B264F5072 /* ZYModuleManger */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2F81D44460F21A39ACAB591B69021AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AEC7371702AEDC940931E3C8C69A63 /* CTMediator+ZYModule_A.h in Resources */,
+				D11EE20CD589BEA142A3A0E40B565FB9 /* CTMediator+ZYModule_A.m in Resources */,
+				A90786FA03A708570FB97ACB33AA1CD8 /* Macros in Resources */,
+				C84A7D9055DCAFFEEF0052893493DF43 /* Module_A in Resources */,
+				CC348BB39E90E6063020665A0BF1CB33 /* ReplaceMe.m in Resources */,
+				9F760ADA05ED362113BA1A1832B8FC10 /* Target_ZYModule_A.h in Resources */,
+				19115DB89A9AA684085392D8EC2B115C /* Target_ZYModule_A.m in Resources */,
+				9C670F4095904B03E6090C2F946173DD /* TWMacros.h in Resources */,
+				CD74F63AD4EA9650DCEF3F8E2E63CC3B /* ZYModule_A in Resources */,
+				0BBCEC94837415CB9898ECAB9BE33591 /* ZYModuleController_A.h in Resources */,
+				59625578AAEF7D2CC7FD3CCFD45C46D5 /* ZYModuleController_A.m in Resources */,
+				836DDADCE2071D5862A8F54FE9B3E236 /* ZYModuleController_A.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		AF25DF13A78C1489CEF95DAF9BDF3F2A /* Sources */ = {
+		4989313607250F6DEC7E5BE9A0393293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B22B000E841E8EA71963EAE59465CC /* ReplaceMe.m in Sources */,
-				E1F67760B98AC95D927DEC61E1EA5CED /* ZYModuleManger-dummy.m in Sources */,
+				8843053E9DD32C5451BD65441119925E /* CTMediator+ZYModule_A.m in Sources */,
+				4F7CEDE6FFB024E9D8AABD5E05CA0BD2 /* ReplaceMe.m in Sources */,
+				FCDF5F847C82022F787C17F35DBB3E86 /* Target_ZYModule_A.m in Sources */,
+				0B347294292F548EBD78DD0D5E66C194 /* ZYModuleController_A.m in Sources */,
+				E3A1E9045E0342D89E943DBCCC7D3819 /* ZYModuleController_A.xib in Sources */,
+				652DA32BCA3269FD301FBFAD8199FE86 /* ZYModuleManger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */,
+				1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,26 +600,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B157CDDAF73199B4B833841112F4409E /* Sources */ = {
+		F18D925213307ECF98F0B1B862C78D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F847D8BC65DBDD1E84A34930366D5548 /* Pods-ZYModuleManger_Example-dummy.m in Sources */,
+				2AF1498321BA0F8A02D148F9DABD5AB2 /* Pods-ZYModuleManger_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4363060BF95E5D6DB9798FE36CA854C1 /* PBXTargetDependency */ = {
+		077C8C8BF8263DBE37D9198889DAFA11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZYModuleManger;
-			target = AAFEE5272554900C4471A0F5AC4D1397 /* ZYModuleManger */;
-			targetProxy = 819A55752B3E09D09861319C360FE305 /* PBXContainerItemProxy */;
+			target = BA52889DAF4FBDC9412E221B264F5072 /* ZYModuleManger */;
+			targetProxy = 7CDB2845A4A0DB15D5108A9337FF6250 /* PBXContainerItemProxy */;
+		};
+		202998FE9C01822E4C3EAB8240DE8570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 2FC56C28ABDCF5CFCF5913A78E3D7EF3 /* PBXContainerItemProxy */;
+		};
+		9957AC69D01F05D5C3BC4B84B465D1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 9107C2A8FC264C37AD5B90CD0AF53FEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1B612B0D2150ABC17556BC7743B2E2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6408ED8AD0CF96CBECE2760F3AD8B3 /* Pods-ZYModuleManger_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYModuleManger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYModuleManger_Example/Pods-ZYModuleManger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZYModuleManger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1E288D9C7EFA8571FDF12CE252C902E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9E9228F206AAC31D1FADB8B1F4E8AEA /* Pods-ZYModuleManger_Tests.release.xcconfig */;
@@ -446,9 +729,9 @@
 			};
 			name = Debug;
 		};
-		3D8164884ACA199494A5C140AE905B84 /* Debug */ = {
+		2EB02FD19BADF388EA82CEA491CCFB88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49621D103B3E1AD28665E2E038D4D9DD /* ZYModuleManger.xcconfig */;
+			baseConfigurationReference = 71E99573AA26E14FC053E6F00F6C8347 /* ZYModuleManger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -538,7 +821,7 @@
 			};
 			name = Debug;
 		};
-		6EFBBAB0D2AD24E9BF9A8DD5E111D1B4 /* Release */ = {
+		569BB6BA0EB8773F316C43862BC19943 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DE06CC700E6237C4DFABC34A7A9AA47 /* Pods-ZYModuleManger_Example.release.xcconfig */;
 			buildSettings = {
@@ -629,9 +912,9 @@
 			};
 			name = Release;
 		};
-		8E67272DB5FBECEBB932D9D9438B66C9 /* Debug */ = {
+		8AFDFC66CBB3F9DFDB3ECE29B08B0DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C6408ED8AD0CF96CBECE2760F3AD8B3 /* Pods-ZYModuleManger_Example.debug.xcconfig */;
+			baseConfigurationReference = 31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,28 +925,55 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZYModuleManger_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZYModuleManger_Example/Pods-ZYModuleManger_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZYModuleManger_Example;
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F9AD709E0980CBB1C76E52DCE82BD293 /* Release */ = {
+		CDE6ACFB7465D958067F0EF63A0615B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49621D103B3E1AD28665E2E038D4D9DD /* ZYModuleManger.xcconfig */;
+			baseConfigurationReference = 31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFF308030F53FDF009C97D207CB46A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E99573AA26E14FC053E6F00F6C8347 /* ZYModuleManger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -712,20 +1022,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AB237C3E8A26A69D821ABECF9DFBA1F /* Build configuration list for PBXNativeTarget "Pods-ZYModuleManger_Example" */ = {
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E67272DB5FBECEBB932D9D9438B66C9 /* Debug */,
-				6EFBBAB0D2AD24E9BF9A8DD5E111D1B4 /* Release */,
+				8AFDFC66CBB3F9DFDB3ECE29B08B0DFE /* Debug */,
+				CDE6ACFB7465D958067F0EF63A0615B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2D0DB91B9FF79BD06DBAD630AB26D12 /* Build configuration list for PBXNativeTarget "ZYModuleManger" */ = {
+		CA519BD09A6A0100F496A201A03D4C09 /* Build configuration list for PBXNativeTarget "Pods-ZYModuleManger_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D8164884ACA199494A5C140AE905B84 /* Debug */,
-				F9AD709E0980CBB1C76E52DCE82BD293 /* Release */,
+				1B612B0D2150ABC17556BC7743B2E2F6 /* Debug */,
+				569BB6BA0EB8773F316C43862BC19943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADE2B6D7B3EF5A2E96957D7FD5BCF6E /* Build configuration list for PBXNativeTarget "ZYModuleManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB02FD19BADF388EA82CEA491CCFB88 /* Debug */,
+				EFF308030F53FDF009C97D207CB46A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

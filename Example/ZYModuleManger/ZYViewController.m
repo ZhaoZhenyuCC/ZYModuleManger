@@ -8,6 +8,7 @@
 
 #import "ZYViewController.h"
 #import "TWMacros.h"
+#import "CTMediator+ZYModule_A.h"
 
 @interface ZYViewController ()
 
@@ -20,6 +21,13 @@
     [super viewDidLoad];
     self.view.backgroundColor = kSubjectColor;
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)btnAction:(id)sender {
+    UIViewController *vc = [[CTMediator sharedInstance] confirmModule_AViewControllerWithParams:@{} ConfirmComplete:^{
+        
+    }];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning

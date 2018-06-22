@@ -11,6 +11,9 @@
 #endif
 
 #import "TWMacros.h"
+#import "CTMediator+ZYModule_A.h"
+#import "Target_ZYModule_A.h"
+#import "ZYModuleController_A.h"
 
 FOUNDATION_EXPORT double ZYModuleMangerVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZYModuleMangerVersionString[];

@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## ZYModuleManger
 
 Copyright (c) 2018 ZhaoZhenyuCC <zhaozhenyu@taiwu.com>
