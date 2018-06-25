@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "ZYModuleManger/Classes/**/*",
-  "resources": "Resources/**/*",
+  "resources": "ZYModuleManger/Classes/*.xib",
   "dependencies": {
     "CTMediator": [
       "~> 13"
