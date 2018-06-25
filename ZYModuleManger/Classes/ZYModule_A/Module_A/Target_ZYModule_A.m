@@ -12,7 +12,10 @@
 @implementation Target_ZYModule_A
 
 - (UIViewController *)Action_ModuleViewController:(NSDictionary *)params{
-    ZYModuleController_A *module_AVC = [[ZYModuleController_A alloc] initWithNibName:@"ZYModuleController_A" bundle:[NSBundle bundleForClass:[ZYModuleController_A class]]];
+    NSBundle *resourceBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[ZYModuleController_A class]] pathForResource:@"ZYModuleManger" ofType:@"bundle"]];
+    
+    
+    ZYModuleController_A *module_AVC = [[ZYModuleController_A alloc] initWithNibName:@"ZYModuleController_A" bundle:resourceBundle];
     return module_AVC;
 }
 
