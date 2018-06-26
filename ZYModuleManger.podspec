@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'ZYModuleManger/Classes/**/*'
-s.resources = 'ZYModuleManger/ZYModuleManger.bundle'
-
-#s.resource = 'ZYModuleManger/Classes/**/*'
+s.source_files = 'ZYModuleManger/Classes/**/*.{h,m}'
+s.resources = 'ZYModuleManger/Classes/**/*.{xib}'
 
 #  s.resource_bundles = {
-#     'ZYModuleManger' => ['ZYModuleManger/Assets/*.png']
+#      'ZYModuleManger' => ['ZYModuleManger/Classes/**/*.xib']
+
+# 'ZYModuleManger' => ['ZYModuleManger/Assets/*.png']
 #  }
 
 

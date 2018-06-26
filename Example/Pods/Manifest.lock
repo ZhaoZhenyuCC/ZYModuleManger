@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (13)
-  - ZYModuleManger (0.3.0):
+  - ZYModuleManger (0.4.0):
     - CTMediator (~> 13)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
-  ZYModuleManger: 8f3e3b6a2af729b310828f4655f573a42e379e18
+  ZYModuleManger: 60e5682f43fed907272e88644deb2a50750059d3
 
 PODFILE CHECKSUM: 39f7023b92b5cf076205f298e2915f42f5b2c94d
 
